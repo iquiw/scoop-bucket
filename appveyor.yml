@@ -1,0 +1,20 @@
+version: '{build}'
+
+clone_depth: 1
+
+environment:
+  SCOOP_HOME: c:\projects\scoop
+
+install:
+  - cd c:\projects
+  - git clone --depth 1 https://github.com/lukesampson/scoop.git
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - ps: |
+      $s = (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/lukesampson/scoop-extras/master/Scoop-Bucket.Tests.ps1')
+      $s -Replace "`n","`r`n" | Out-File "$env:APPVEYOR_BUILD_FOLDER\Scoop-Bucket.Tests.ps1"
+  - ps: Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser
+
+build: false
+
+test_script:
+  - ps: Invoke-Pester -EnableExit
