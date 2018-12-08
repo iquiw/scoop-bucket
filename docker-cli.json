@@ -1,5 +1,5 @@
 {
-    "homepage": "https://github.com/docker/cli",
+    "homepage": "https://github.com/iquiw/docker-cli-binary",
     "description": "The Docker CLI",
     "license": "Apache-2.0",
     "version": "18.09.0",
