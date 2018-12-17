@@ -6,3 +6,4 @@
 
 * [Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)
 * [Docker CLI](https://github.com/iquiw/docker-cli-binary)
+* [Teleport client (tsh)](https://gravitational.com/teleport/)
