@@ -13,8 +13,9 @@ install:
       $s = (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/lukesampson/scoop-extras/master/Scoop-Bucket.Tests.ps1')
       $s -Replace "`n","`r`n" | Out-File "$env:APPVEYOR_BUILD_FOLDER\Scoop-Bucket.Tests.ps1"
   - ps: Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser
+  - ps: Install-Module BuildHelpers -Force -SkipPublisherCheck -Scope CurrentUser
 
-build: false
+build: off
 
 test_script:
   - ps: Invoke-Pester -EnableExit
