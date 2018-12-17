@@ -1,6 +1,6 @@
 version: '{build}'
 
-clone_depth: 1
+clone_depth: 2
 
 environment:
   SCOOP_HOME: c:\projects\scoop
