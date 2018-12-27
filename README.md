@@ -6,4 +6,5 @@
 
 * [Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)
 * [Docker CLI](https://github.com/iquiw/docker-cli-binary)
+* [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [Teleport client (tsh)](https://gravitational.com/teleport/)
