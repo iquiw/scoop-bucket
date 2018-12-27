@@ -9,7 +9,7 @@
             "hash": "97da6c16bd18a587625c8cefe174b3218dfee2cc1f0bc32a3ac5772be9a3d585"
         }
     },
-    "bin": "teleport/tsh.exe",
+    "bin": "teleport\\tsh.exe",
     "checkver": {
         "url": "https://dashboard.gravitational.com/webapi/releases-oss/latest?product=teleport",
         "re": "v([\\d.]+)",
