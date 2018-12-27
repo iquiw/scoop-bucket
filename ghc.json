@@ -1,0 +1,38 @@
+{
+    "homepage": "https://www.haskell.org/ghc/",
+    "version": "8.6.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-unknown-mingw32.tar.xz",
+            "extract_dir": "ghc-8.6.3",
+            "hash": "2fec383904e5fa79413e9afd328faf9bc700006c8c3d4bcdd8d4f2ccf0f7fa2a"
+        }
+    },
+    "bin": [
+        "bin\\ghc.exe",
+        "bin\\ghci.exe",
+        "bin\\ghc-pkg.exe",
+        "bin\\haddock.exe",
+        "bin\\hp2ps.exe",
+        "bin\\hpc.exe",
+        "bin\\hsc2hs.exe",
+        "bin\\runghc.exe",
+        "bin\\runhaskell.exe"
+    ],
+    "checkver": {
+        "url": "https://www.haskell.org/ghc/",
+        "re": "GHC ([\\d.]+) Released!"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.haskell.org/~ghc/$version/ghc-$version-x86_64-unknown-mingw32.tar.xz",
+                "extract_dir": "ghc-$version"
+            },
+            "hash": {
+                "url": "https://downloads.haskell.org/~ghc/$version/SHA256SUMS",
+                "find": "([a-fA-F0-9]{64}) ./$basename"
+            }
+        }
+    }
+}
