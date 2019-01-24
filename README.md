@@ -9,5 +9,4 @@
 * [Docker CLI](https://github.com/iquiw/docker-cli-binary)
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [NYAGOS](https://github.com/zetamatta/nyagos)
-* [Teleport client (tsh)](https://gravitational.com/teleport/)
 * [VisualVM](https://visualvm.github.io/)
