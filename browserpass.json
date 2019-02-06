@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/browserpass/browserpass",
+    "description": "Chrome & Firefox browser extension for pass, a UNIX password manager",
+    "license": "MIT",
+    "version": "2.0.22",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/browserpass/browserpass/releases/download/2.0.22/browserpass-windows64.zip",
+            "hash": "66c80fe74c09416bc02ee3044e725d390afb41027436600fe4bd8735c9ddbb08"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/browserpass/browserpass/releases/download/$version/browserpass-windows64.zip"
+            }
+        }
+    }
+}
