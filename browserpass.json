@@ -9,6 +9,16 @@
             "hash": "66c80fe74c09416bc02ee3044e725d390afb41027436600fe4bd8735c9ddbb08"
         }
     },
+    "post_install": [
+      "$appid = 'com.dannyvankooten.browserpass'",
+      "$ff_jsonpath = Join-Path -Path $dir -ChildPath \"$appid-firefox.json\"",
+      "$ffile = gc (Join-Path -Path $dir firefox-host.json)",
+      "$ffile -replace '%%replace%%', ((Join-Path -Path $dir -ChildPath 'browserpass-windows64.exe' | ConvertTo-json) -replace '^\"|\"$', \"\") | Out-File -Encoding UTF8 $ff_jsonpath",
+      "$regPath = 'hkcu:\\Software\\Mozilla\\NativeMessagingHosts'",
+      "If (-NOT (Test-Path -Path $regPath)) { New-Item -Path $regPath -force }",
+      "New-Item -Path \"$regPath\\$appid\" -force",
+      "New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $ff_jsonpath"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
