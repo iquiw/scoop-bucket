@@ -11,13 +11,17 @@
     },
     "post_install": [
       "$appid = 'com.dannyvankooten.browserpass'",
-      "$ff_jsonpath = Join-Path -Path $dir -ChildPath \"$appid-firefox.json\"",
-      "$ffile = gc (Join-Path -Path $dir firefox-host.json)",
-      "$ffile -replace '%%replace%%', ((Join-Path -Path $dir -ChildPath 'browserpass-windows64.exe' | ConvertTo-json) -replace '^\"|\"$', \"\") | Out-File -Encoding UTF8 $ff_jsonpath",
-      "$regPath = 'hkcu:\\Software\\Mozilla\\NativeMessagingHosts'",
-      "If (-NOT (Test-Path -Path $regPath)) { New-Item -Path $regPath -force }",
-      "New-Item -Path \"$regPath\\$appid\" -force",
-      "New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $ff_jsonpath"
+      "$browsers = @('firefox', 'chrome')",
+      "$regkeys = @('Mozilla', 'Google\\Chrome')",
+      "For ($i = 0; $i -lt 2; $i++) {",
+      "    $jsonpath = Join-Path -Path $dir -ChildPath ('{0}-{1}.json' -f $appid, $browsers[$i])",
+      "    $jsonstr = gc (Join-Path -Path $dir ('{0}-host.json' -f $browsers[$i]))",
+      "    $jsonstr -replace '%%replace%%', ((Join-Path -Path $dir -ChildPath 'browserpass-windows64.exe' | ConvertTo-json) -replace '^\"|\"$', '') | Out-File -Encoding UTF8 $jsonpath",
+      "    $regPath = 'hkcu:\\Software\\{0}\\NativeMessagingHosts' -f $regkeys[$i]",
+      "    If (-NOT (Test-Path -Path $regPath)) { New-Item -Path $regPath -force }",
+      "    New-Item -Path \"$regPath\\$appid\" -force",
+      "    New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $jsonpath",
+      "}"
     ],
     "checkver": "github",
     "autoupdate": {
