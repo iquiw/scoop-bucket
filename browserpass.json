@@ -23,6 +23,10 @@
       "    New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $jsonpath",
       "}"
     ],
+    "notes": [
+      "Added Windows registry items will not be deleted by uninstall.",
+      "Please delete them manually."
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
