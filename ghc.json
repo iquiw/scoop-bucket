@@ -1,18 +1,18 @@
 {
     "homepage": "https://www.haskell.org/ghc/",
-    "version": "8.6.3",
+    "version": "8.6.4",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.haskell.org/~ghc/8.6.3/ghc-8.6.3-x86_64-unknown-mingw32.tar.xz",
-            "extract_dir": "ghc-8.6.3",
-            "hash": "2fec383904e5fa79413e9afd328faf9bc700006c8c3d4bcdd8d4f2ccf0f7fa2a"
+            "url": "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz",
+            "extract_dir": "ghc-8.6.4",
+            "hash": "e8d021b7a90772fc559862079da20538498d991956d7557b468ca19ddda22a08"
         }
     },
     "bin": [
         "bin\\ghc.exe",
         "bin\\ghci.exe",
         "bin\\ghc-pkg.exe",
-        "bin\\haddock.exe",
+        "bin\\haddock-8.6.4.exe",
         "bin\\hp2ps.exe",
         "bin\\hpc.exe",
         "bin\\hsc2hs.exe",
