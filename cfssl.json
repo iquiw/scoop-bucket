@@ -2,11 +2,11 @@
     "homepage": "https://github.com/iquiw/cfssl-binary",
     "description": "Cloudflare's PKI and TLS toolkit",
     "license": "BSD-2-Clause",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/cfssl-binary/releases/download/v1.3.2/cfssl-v1.3.2.7z",
-            "hash": "b9721817bceaffcbba093aa67283f4175a059d030de8d2a9a18298a0ff37b57c"
+            "url": "https://github.com/iquiw/cfssl-binary/releases/download/v1.3.3/cfssl-v1.3.3.7z",
+            "hash": "af72f0141e07e52e284712f9c85bd46f724409e0ffe66dcb0ccb00e4f9514e3f"
         }
     },
     "bin": [
