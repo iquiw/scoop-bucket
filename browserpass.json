@@ -1,37 +1,39 @@
 {
-    "homepage": "https://github.com/browserpass/browserpass",
-    "description": "Chrome & Firefox browser extension for pass, a UNIX password manager",
-    "license": "MIT",
-    "version": "2.0.22",
+    "homepage": "https://github.com/browserpass/browserpass-native",
+    "description": "Browserpass native client app",
+    "license": "ISC",
+    "version": "3.0.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/browserpass/browserpass/releases/download/2.0.22/browserpass-windows64.zip",
-            "hash": "66c80fe74c09416bc02ee3044e725d390afb41027436600fe4bd8735c9ddbb08"
+            "url": "https://github.com/browserpass/browserpass-native/releases/download/3.0.6/browserpass-windows64-3.0.6.zip",
+            "extract_dir": "browserpass-windows64-3.0.6",
+            "hash": "f790f7f958b11e1fcc0631e6bce43226e8f0c2a5c82fc039169d332fe942365d"
         }
     },
     "post_install": [
-      "$appid = 'com.dannyvankooten.browserpass'",
-      "$browsers = @('firefox', 'chrome')",
-      "$regkeys = @('Mozilla', 'Google\\Chrome')",
-      "For ($i = 0; $i -lt 2; $i++) {",
-      "    $jsonpath = Join-Path -Path $dir -ChildPath ('{0}-{1}.json' -f $appid, $browsers[$i])",
-      "    $jsonstr = gc (Join-Path -Path $dir ('{0}-host.json' -f $browsers[$i]))",
-      "    $jsonstr -replace '%%replace%%', ((Join-Path -Path $dir -ChildPath 'browserpass-windows64.exe' | ConvertTo-json) -replace '^\"|\"$', '') | Out-File -Encoding UTF8 $jsonpath",
-      "    $regPath = 'hkcu:\\Software\\{0}\\NativeMessagingHosts' -f $regkeys[$i]",
-      "    If (-NOT (Test-Path -Path $regPath)) { New-Item -Path $regPath -force }",
-      "    New-Item -Path \"$regPath\\$appid\" -force",
-      "    New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $jsonpath",
-      "}"
+        "$appid = 'com.github.browserpass.native'",
+        "$browsers = @('firefox', 'chromium')",
+        "$regkeys = @('Mozilla', 'Google\\Chrome')",
+        "For ($i = 0; $i -lt 2; $i++) {",
+        "    $jsonpath = Join-Path -Path $dir -ChildPath ('{0}-{1}.json' -f $appid, $browsers[$i])",
+        "    $jsonstr = gc (Join-Path -Path $dir\\browser-files ('{0}-host.json' -f $browsers[$i]))",
+        "    $jsonstr -replace '%%replace%%', ((Join-Path -Path $dir -ChildPath 'browserpass-windows64.exe' | ConvertTo-json) -replace '^\"|\"$', '') | Out-File -Encoding UTF8 $jsonpath",
+        "    $regPath = 'hkcu:\\Software\\{0}\\NativeMessagingHosts' -f $regkeys[$i]",
+        "    If (-NOT (Test-Path -Path $regPath)) { New-Item -Path $regPath -force }",
+        "    New-Item -Path \"$regPath\\$appid\" -force",
+        "    New-ItemProperty -Path \"$regPath\\$appid\"` -Name '(Default)'` -Value $jsonpath",
+        "}"
     ],
     "notes": [
-      "Added Windows registry items will not be deleted by uninstall.",
-      "Please delete them manually."
+        "Added Windows registry items will not be deleted by uninstall.",
+        "Please delete them manually."
     ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/browserpass/browserpass/releases/download/$version/browserpass-windows64.zip"
+                "url": "https://github.com/browserpass/browserpass-native/releases/download/$version/browserpass-windows64-$version.zip",
+                "extract_dir": "browserpass-windows64-$version"
             }
         }
     }
