@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.haskell.org/ghc/",
-    "version": "8.6.4",
+    "version": "8.6.5",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-x86_64-unknown-mingw32.tar.xz",
-            "extract_dir": "ghc-8.6.4",
-            "hash": "e8d021b7a90772fc559862079da20538498d991956d7557b468ca19ddda22a08"
+            "url": "https://downloads.haskell.org/~ghc/8.6.5/ghc-8.6.5-x86_64-unknown-mingw32.tar.xz",
+            "extract_dir": "ghc-8.6.5",
+            "hash": "457024c6ea43bdce340af428d86319931f267089398b859b00efdfe2fd4ce93f"
         }
     },
     "bin": [
