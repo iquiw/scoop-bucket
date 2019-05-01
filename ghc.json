@@ -12,7 +12,7 @@
         "bin\\ghc.exe",
         "bin\\ghci.exe",
         "bin\\ghc-pkg.exe",
-        "bin\\haddock-8.6.4.exe",
+        "bin\\haddock.exe",
         "bin\\hp2ps.exe",
         "bin\\hpc.exe",
         "bin\\hsc2hs.exe",
