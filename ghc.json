@@ -27,11 +27,11 @@
         "architecture": {
             "64bit": {
                 "url": "https://downloads.haskell.org/~ghc/$version/ghc-$version-x86_64-unknown-mingw32.tar.xz"
-            },
-            "hash": {
-                "url": "https://downloads.haskell.org/~ghc/$version/SHA256SUMS",
-                "find": "([a-fA-F0-9]{64}) ./$basename"
             }
+        },
+        "hash": {
+            "url": "https://downloads.haskell.org/~ghc/$version/SHA256SUMS",
+            "find": "([a-fA-F0-9]{64}) ./$basename"
         },
         "extract_dir": "ghc-$version"
     }
