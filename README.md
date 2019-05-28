@@ -11,4 +11,5 @@
 * [Hunspell](https://github.com/iquiw/hunspell-binary)
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [NYAGOS](https://github.com/zetamatta/nyagos)
+* [Trivy](https://github.com/knqyf263/trivy)
 * [VisualVM](https://visualvm.github.io/)
