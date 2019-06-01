@@ -2,15 +2,15 @@
     "homepage": "https://github.com/zetamatta/nyagos",
     "description": "The UNIX-Like Commandline Shell",
     "license": "BSD-3-Clause",
-    "version": "4.4.3_0",
+    "version": "4.4.4_1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.3_0/nyagos-4.4.3_0-windows-amd64.zip",
-            "hash": "1dc366465073817b283d573aa721606185af9b8f4e5a786ed29b2ba9cdd3b0f5"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.4_1/nyagos-4.4.4_1-windows-amd64.zip",
+            "hash": "92eb1913c8814ba84855fb6747d61e4a5e577c4d76d3cd14c11425b45d180c23"
         },
         "32bit": {
-            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.3_0/nyagos-4.4.3_0-windows-386.zip",
-            "hash": "02a88233f6d8f490cf9e15f80c61bc38ed26014f4ad2551d48f8901aa2ab6569"
+            "url": "https://github.com/zetamatta/nyagos/releases/download/4.4.4_1/nyagos-4.4.4_1-windows-386.zip",
+            "hash": "bfa77df9d681b2f17102072d786278badcb209461cc4893b681ac5c428b284ed"
         }
     },
     "bin": "nyagos.exe",
