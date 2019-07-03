@@ -13,6 +13,7 @@
             "hash": "8cae9608f023f4d6f13528f2ff8c838ec5a2442a861d24f8d2c8257ea19cb58f"
         }
     },
+    "bin": "trivy.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
