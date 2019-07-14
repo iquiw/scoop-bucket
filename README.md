@@ -10,6 +10,7 @@
 * [Docker CLI](https://github.com/iquiw/docker-cli-binary)
 * [Hunspell](https://github.com/iquiw/hunspell-binary)
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
+* [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump)
 * [password](https://passwd.fyi/)
 * [Trivy](https://github.com/knqyf263/trivy)
 * [VisualVM](https://visualvm.github.io/)
