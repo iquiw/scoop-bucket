@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/iquiw/docker-cli-binary/releases/download/v19.03.0/docker-v19.03.0.7z",
-            "hash": "0c04fe26814c0e54994c5389bee708e73eb536cd53810e7228eba22a3b2f620c"
+            "hash": "c9b5b894a8a06f0717542e3b42ee972cafea2c193cad420ee1eca27a9ef9ba7e"
         }
     },
     "bin": "docker.exe",
