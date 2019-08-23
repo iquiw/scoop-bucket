@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/coreos/fcct",
+    "description": "Fedora CoreOS Config Transpiler",
+    "license": "Apache-2.0",
+    "version": "0.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/coreos/fcct/releases/download/v0.2.0/fcct-x86_64-pc-windows-gnu.exe#/fcct.exe",
+            "hash": "2821a2877af366b541af9b402f686f22329445dcc738d945f50ab63825ab4d48"
+        }
+    },
+    "bin": "fcct.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/coreos/fcct/releases/download/v0.2.0/fcct-x86_64-pc-windows-gnu.exe#/fcct.exe"
+            }
+        }
+    }
+}
