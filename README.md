@@ -9,6 +9,7 @@
 * [Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)
 * [Docker CLI](https://github.com/iquiw/docker-cli-binary)
 * [Hunspell](https://github.com/iquiw/hunspell-binary)
+* [Fedora CoreOS Config Transpiler](https://github.com/coreos/fcct)
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump)
 * [password](https://passwd.fyi/)
