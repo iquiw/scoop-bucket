@@ -13,5 +13,6 @@
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump)
 * [password](https://passwd.fyi/)
+* [Rawrite32](https://www.netbsd.org/~martin/rawrite32/)
 * [Trivy](https://github.com/knqyf263/trivy)
 * [VisualVM](https://visualvm.github.io/)
