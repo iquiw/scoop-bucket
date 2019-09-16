@@ -4,6 +4,7 @@
 
 ## Applications
 
+* [Aspell](https://github.com/iquiw/aspell-binary)
 * [Browserpass](https://github.com/browserpass/browserpass-native)
 * [CFSSL](https://github.com/iquiw/cfssl-binary)
 * [Container Linux Config Transpiler](https://github.com/coreos/container-linux-config-transpiler)
