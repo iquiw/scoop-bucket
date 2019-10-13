@@ -2,11 +2,11 @@
     "homepage": "https://github.com/iquiw/aspell-binary",
     "description": "Spell checker designed to eventually replace Ispell",
     "license": "LGPL-2.1-or-later",
-    "version": "0.60.7",
+    "version": "0.60.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/aspell-binary/releases/download/v0.60.7/aspell-0.60.7.7z",
-            "hash": "120b18c607f2b4e1f99a3156b0f19d1b52e050cc682c3940cb3a38e40f476582"
+            "url": "https://github.com/iquiw/aspell-binary/releases/download/v0.60.8/aspell-0.60.8.7z",
+            "hash": "9209f48fdbc4a5c65cd8d28597065048e88a576d44d211bcde72b399b4835ecf"
         }
     },
     "extract_dir": "Aspell",
