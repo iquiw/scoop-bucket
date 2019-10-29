@@ -2,11 +2,11 @@
     "homepage": "https://github.com/rust-lang-nursery/mdBook",
     "description": "A utility to create modern online books from Markdown files",
     "license": "MPL-2.0",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rust-lang-nursery/mdBook/releases/download/v0.3.2/mdbook-v0.3.2-x86_64-pc-windows-msvc.zip",
-            "hash": "ccc0ff1e18c613f4d4a23e6ef63b32c53dd86ac2ecd65c051bd52a1564aaff71"
+            "url": "https://github.com/rust-lang-nursery/mdBook/releases/download/v0.3.3/mdbook-v0.3.3-x86_64-pc-windows-msvc.zip",
+            "hash": "50c326cc8f12fe2aeee5daae568b8e1883e99d503c215e338918b51c6720a088"
         }
     },
     "bin": "mdbook.exe",
