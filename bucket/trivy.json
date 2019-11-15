@@ -2,15 +2,15 @@
     "homepage": "https://github.com/knqyf263/trivy",
     "description": "A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI",
     "license": "AGPL-3.0",
-    "version": "0.1.7",
+    "version": "0.2.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/knqyf263/trivy/releases/download/v0.1.7/trivy_0.1.7_Windows-32bit.zip",
-            "hash": "3e1e3394208c6067e8e0d387373624507cb9c4f4eec74db1a67035f2aeb1c68c"
+            "url": "https://github.com/knqyf263/trivy/releases/download/v0.2.0/trivy_0.2.0_Windows-32bit.zip",
+            "hash": "0b50500d1257ad4f5e6d050e66cb497dd8c8d3be5e173f611a97f143409d179c"
         },
         "64bit": {
-            "url": "https://github.com/knqyf263/trivy/releases/download/v0.1.7/trivy_0.1.7_Windows-64bit.zip",
-            "hash": "4000cda9964a4615aca1ecb29645049a2ba5dde44a61a76ad763ee5396e4ab32"
+            "url": "https://github.com/knqyf263/trivy/releases/download/v0.2.0/trivy_0.2.0_Windows-64bit.zip",
+            "hash": "cf0659d0222f91d45eddacb2897112d06da34fde53938e6e23905be0ece9309c"
         }
     },
     "bin": "trivy.exe",
