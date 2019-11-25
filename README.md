@@ -13,6 +13,7 @@
 * [Fedora CoreOS Config Transpiler](https://github.com/coreos/fcct)
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump)
+* [grcov](https://github.com/mozilla/grcov)
 * [password](https://passwd.fyi/)
 * [Rawrite32](https://www.netbsd.org/~martin/rawrite32/)
 * [Trivy](https://github.com/knqyf263/trivy)
