@@ -2,11 +2,11 @@
     "homepage": "https://github.com/mozilla/grcov",
     "description": "Rust tool to collect and aggregate code coverage data for multiple source files",
     "license": "MPL-2.0",
-    "version": "0.5.5",
+    "version": "0.5.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mozilla/grcov/releases/download/v0.5.5/grcov-win-x86_64.tar.bz2",
-            "hash": "9582280126d8bdd5e1a6b14db5191a03a134f1c1a1301a4905b2fcf27b84bdf8"
+            "url": "https://github.com/mozilla/grcov/releases/download/v0.5.6/grcov-win-x86_64.tar.bz2",
+            "hash": "7dfe69ed9c79c8d33ec73aa3a8b831ac32b2ecce53ce8e742b0371241ce6c57e"
         }
     },
     "bin": "grcov.exe",
