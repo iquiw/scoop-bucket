@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/sclevine/yj",
+    "description": "Convert between YAML, TOML, JSON, and HCL",
+    "license": "Apache-2.0",
+    "version": "4.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sclevine/yj/releases/download/v4.0.0/yj.exe",
+            "hash": "65f345cf049ba3d959f84d7532a916b416c36280e6b05e9568577d22ce1196f7"
+        }
+    },
+    "bin": "yj.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sclevine/yj/releases/download/v$version/yj.exe"
+            }
+        }
+    }
+}
