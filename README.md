@@ -14,7 +14,6 @@
 * [The Glasgow Haskell Compiler](https://www.haskell.org/ghc/)
 * [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump)
 * [grcov](https://github.com/mozilla/grcov)
-* [mdBook](https://github.com/rust-lang-nursery/mdBook)
 * [password](https://passwd.fyi/)
 * [Rawrite32](https://www.netbsd.org/~martin/rawrite32/)
 * [VisualVM](https://visualvm.github.io/)
