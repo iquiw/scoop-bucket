@@ -7,6 +7,12 @@
     "extract_dir": "visualvm_144",
     "hash": "7c75dabebd960d72cbc47a149c0b029753fbb32320e86816bca6d06cf6e7a015",
     "bin": "bin\\visualvm.exe",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
     "checkver": {
         "github": "https://github.com/oracle/visualvm"
     },
