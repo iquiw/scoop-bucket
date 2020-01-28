@@ -26,7 +26,7 @@
             "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
             "    $fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
             "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
-            "    Remove-Item \"$fontdir\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
+            "    Move-Item \"$fontdir\\$($_.Name)\" -Destination \"$fontdir\\Deleted\\$($_.Name)\" -Force",
             "}"
         ]
     }
