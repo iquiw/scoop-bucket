@@ -1,0 +1,35 @@
+{
+    "homepage": "https://github.com/yuru7/HackGen",
+    "description": "Japanese programming font which is a composed of Hack and GenJyuu-Gothic",
+    "version": "1.4.1",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/yuru7/HackGen/blob/master/LICENSE.txt"
+    },
+    "url": "https://github.com/yuru7/HackGen/releases/download/v1.4.1/HackGen_v1.4.1.zip",
+    "hash": "3f190f25f035ff1e5e4d277e751dc85c64ecaaf9cfaa09074d5623f4a597e996",
+    "extract_dir": "HackGen_v1.4.1",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
+        "extract_dir": "HackGen_v$version"
+    },
+    "installer": {
+        "script": [
+            "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
+            "    $fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "    New-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value \"$fontdir\\$($_.Name)\" -Force | Out-Null",
+            "    Copy-Item $_.FullName -destination \"$fontdir\"",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
+            "    $fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
+            "    Move-Item \"$fontdir\\$($_.Name)\" -Destination \"$fontdir\\Deleted\\$($_.Name)\" -Force",
+            "}"
+        ]
+    }
+}
