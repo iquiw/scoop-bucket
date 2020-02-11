@@ -4,19 +4,23 @@ $result = "# Personal Scoop bucket
 
 ## Applications
 
-| Name | Description |
-| ---  | ---         |
+| Name | Description | Unofficial binary |
+| ---  | ---         | ---               |
 "
 
 $files = Get-ChildItem bucket
 
 foreach ($file in $files) {
     $path = Join-Path -Path "bucket" -ChildPath $file
-    $name = $file -replace "\.json$", ""
+    $name = $file -replace "\.json$", ''
     $json = Get-Content $path | ConvertFrom-Json
     $homepage = $json.homepage
     $descr = $json.description
-    $result += "| [$name]($homepage) | $descr |`r`n"
+    $unofficial = ''
+    if ($homepage -match "github.com/iquiw/.*-binary") {
+        $unofficial = 'O'
+    }
+    $result += "| [$name]($homepage) | $descr | $unofficial |`r`n"
 }
 
 $result | Set-Content README.md
