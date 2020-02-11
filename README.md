@@ -4,22 +4,22 @@
 
 ## Applications
 
-| Name | Description |
-| ---  | ---         |
-| [aspell](https://github.com/iquiw/aspell-binary) | Spell checker designed to eventually replace Ispell |
-| [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |
-| [cfssl](https://github.com/iquiw/cfssl-binary) | Cloudflare's PKI and TLS toolkit |
-| [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |
-| [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |
-| [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI |
-| [fcct](https://github.com/coreos/fcct) | Fedora CoreOS Config Transpiler |
-| [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |
-| [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |
-| [grcov](https://github.com/mozilla/grcov) | Rust tool to collect and aggregate code coverage data for multiple source files |
-| [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |
-| [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library |
-| [password](https://passwd.fyi/) | Fast and secure password generator |
-| [rawrite32](http://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |
-| [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |
-| [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |
+| Name | Description | Unofficial binary |
+| ---  | ---         | ---               |
+| [aspell](https://github.com/iquiw/aspell-binary) | Spell checker designed to eventually replace Ispell | O |
+| [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
+| [cfssl](https://github.com/iquiw/cfssl-binary) | Cloudflare's PKI and TLS toolkit | O |
+| [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
+| [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
+| [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
+| [fcct](https://github.com/coreos/fcct) | Fedora CoreOS Config Transpiler |  |
+| [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
+| [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
+| [grcov](https://github.com/mozilla/grcov) | Rust tool to collect and aggregate code coverage data for multiple source files |  |
+| [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
+| [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
+| [password](https://passwd.fyi/) | Fast and secure password generator |  |
+| [rawrite32](http://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
+| [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |  |
+| [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 
