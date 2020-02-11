@@ -19,4 +19,4 @@ foreach ($file in $files) {
     $result += "| [$name]($homepage) | $descr |`r`n"
 }
 
-$result | Out-File README.md
+$result | Set-Content README.md
