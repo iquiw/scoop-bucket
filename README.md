@@ -11,6 +11,7 @@
 | [cfssl](https://github.com/iquiw/cfssl-binary) | Cloudflare's PKI and TLS toolkit | O |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
+| [cue](https://cuelang.org) | Validate and define text-based and dynamic configuration |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [fcct](https://github.com/coreos/fcct) | Fedora CoreOS Config Transpiler |  |
 | [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
