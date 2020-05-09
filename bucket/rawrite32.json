@@ -1,18 +1,18 @@
 {
-    "homepage": "http://www.netbsd.org/~martin/rawrite32/index.html",
+    "homepage": "https://www.netbsd.org/~martin/rawrite32/index.html",
     "description": "A tool to prepare disks or other removeable media, especially USB memory sticks",
     "license": "BSD-2-Clause",
     "version": "1.0.7.0",
-    "url": "http://www.netbsd.org/~martin/download/rawrite-1.0.7.0.zip",
+    "url": "https://www.netbsd.org/~martin/download/rawrite-1.0.7.0.zip",
     "hash": "c5451b330a1a4de9df49dcbc8d4b55d61820eaac34e2ec11a5cf488f6af78195",
     "extract_dir": "rawrite32-1.0.7.0",
     "bin": "Rawrite32.exe",
     "checkver": {
-        "url": "http://www.netbsd.org/~martin/rawrite32/download.html",
+        "url": "https://www.netbsd.org/~martin/rawrite32/download.html",
         "re": "\"\\.\\./download/rawrite-([\\d.]+).zip\""
     },
     "autoupdate": {
-        "url": "http://www.netbsd.org/~martin/download/rawrite-$version.zip",
+        "url": "https://www.netbsd.org/~martin/download/rawrite-$version.zip",
         "extract_dir": "rawrite32-$version"
     }
 }
