@@ -9,7 +9,7 @@ install:
   - cd c:\projects
   - git clone --depth 1 https://github.com/lukesampson/scoop.git
   - cd %APPVEYOR_BUILD_FOLDER%
-  - ps: Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser
+  - ps: Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser -MaximumVersion 4.4.0
   - ps: Install-Module BuildHelpers -Force -SkipPublisherCheck -Scope CurrentUser
 
 build: off
