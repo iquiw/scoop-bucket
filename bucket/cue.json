@@ -2,11 +2,11 @@
     "homepage": "https://cuelang.org",
     "description": "Validate and define text-based and dynamic configuration",
     "license": "Apache-2.0",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cuelang/cue/releases/download/v0.2.0/cue_0.2.0_Windows_x86_64.zip",
-            "hash": "2d1d7f45c61808ba83692f1aefe804894e19d032aec06a91475cb5923bfa6bc4"
+            "url": "https://github.com/cuelang/cue/releases/download/v0.2.1/cue_0.2.1_Windows_x86_64.zip",
+            "hash": "b705cd47d3d568b231ed94c8d3e947f9e1d9b54eab0483d9a00b1c6645be32e9"
         }
     },
     "bin": "cue.exe",
