@@ -18,9 +18,11 @@
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
 | [grcov](https://github.com/mozilla/grcov) | Rust tool to collect and aggregate code coverage data for multiple source files |  |
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
+| [hackgennerd](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack, GenJyuu-Gothic and Nerd Fonts |  |
+| [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
-| [rawrite32](http://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
+| [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |  |
 | [vultr-cli](https://github.com/vultr/vultr-cli) | Official command line tool for Vultr services |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
