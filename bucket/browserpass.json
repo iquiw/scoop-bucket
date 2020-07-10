@@ -1,12 +1,12 @@
 {
-    "homepage": "https://github.com/browserpass/browserpass-native",
+    "version": "3.0.7",
     "description": "Browserpass native client app",
+    "homepage": "https://github.com/browserpass/browserpass-native",
     "license": "ISC",
-    "version": "3.0.6",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/browserpass/browserpass-native/releases/download/3.0.6/browserpass-windows64-3.0.6.msi",
-            "hash": "282186638edf47a128765a9acd4e6c6b878db2ce6ff73447bcc6bbec79a4639e"
+            "url": "https://github.com/browserpass/browserpass-native/releases/download/3.0.7/browserpass-windows64-3.0.7.msi",
+            "hash": "54ceb4f22925c774064ce7022e19e64fc337904f2c4793bb43c38d1f390c01e5"
         }
     },
     "extract_dir": "PFiles/Browserpass",
