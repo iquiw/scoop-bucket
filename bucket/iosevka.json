@@ -1,0 +1,32 @@
+{
+    "version": "3.3.0",
+    "description": "Slender typeface for code, from code",
+    "homepage": "https://typeof.net/Iosevka/",
+    "license": "OFL-1.1",
+    "url": "https://github.com/be5invis/Iosevka/releases/download/v3.3.0/ttc-iosevka-3.3.0.zip",
+    "hash": "73578475e86e2758869d691502eaed0af1e01c70cd876551b0d9bf21ce85d7ff",
+    "checkver": {
+        "github": "https://github.com/be5invis/Iosevka"
+    },
+    "autoupdate": {
+        "url": "https://github.com/be5invis/Iosevka/releases/download/v$version/ttc-iosevka-$version.zip"
+    },
+    "installer": {
+        "script": [
+            "Get-ChildItem $dir -filter '*.ttc' | ForEach-Object {",
+            "    $fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "    New-ItemProperty -Path 'HKCU:\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value \"$fontdir\\$($_.Name)\" -Force | Out-Null",
+            "    Copy-Item $_.FullName -destination \"$fontdir\"",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "Get-ChildItem $dir -filter '*.ttc' | ForEach-Object {",
+            "    $fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
+            "    Move-Item \"$fontdir\\$($_.Name)\" -Destination \"$fontdir\\Deleted\\$($_.Name)\" -Force",
+            "}"
+        ]
+    }
+}

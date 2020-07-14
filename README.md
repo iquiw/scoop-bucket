@@ -21,6 +21,7 @@
 | [hackgennerd](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack, GenJyuu-Gothic and Nerd Fonts |  |
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
+| [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |  |
