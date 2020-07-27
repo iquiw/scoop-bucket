@@ -24,6 +24,7 @@
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
+| [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |  |
 | [vultr-cli](https://github.com/vultr/vultr-cli) | Official command line tool for Vultr services |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
