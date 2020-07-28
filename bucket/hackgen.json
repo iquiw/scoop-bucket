@@ -1,14 +1,14 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Japanese programming font which is a composed of Hack and GenJyuu-Gothic",
     "homepage": "https://github.com/yuru7/HackGen",
     "license": {
         "identifier": "Freeware",
         "url": "https://github.com/yuru7/HackGen/blob/master/LICENSE.txt"
     },
-    "url": "https://github.com/yuru7/HackGen/releases/download/v2.0.0/HackGen_v2.0.0.zip",
-    "hash": "5ad5c40f2476cd37bf48a496da3ebc5f08c2d817ea4d672fe39c6cb93d91010a",
-    "extract_dir": "HackGen_v2.0.0",
+    "url": "https://github.com/yuru7/HackGen/releases/download/v2.1.0/HackGen_v2.1.0.zip",
+    "hash": "a1ccb44e72abb7bf0bc3dd6bc208cc9514d5b22e3096010cf82ebccecc1d0384",
+    "extract_dir": "HackGen_v2.1.0",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
