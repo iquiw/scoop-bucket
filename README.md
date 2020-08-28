@@ -23,6 +23,7 @@
 | [hledger](https://hledger.org/) | Easy-to-use command-line/curses/web plaintext accounting tool |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
+| [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
