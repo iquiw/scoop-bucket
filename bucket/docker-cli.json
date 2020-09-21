@@ -2,11 +2,11 @@
     "homepage": "https://github.com/iquiw/docker-cli-binary",
     "description": "The Docker CLI",
     "license": "Apache-2.0",
-    "version": "19.03.12",
+    "version": "19.03.13",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/docker-cli-binary/releases/download/v19.03.12/docker-v19.03.12.7z",
-            "hash": "f9b75c83cceb95d936e5a8f1379446ee9434355f4841a3407074e0d9f6c25c6e"
+            "url": "https://github.com/iquiw/docker-cli-binary/releases/download/v19.03.13/docker-v19.03.13.7z",
+            "hash": "aa3879d41073b4468007512e095ed45daa7b4e776cccfe08c597be2412df7660"
         }
     },
     "bin": "docker.exe",
