@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.haskell.org/ghc/",
-    "version": "8.10.1",
+    "version": "8.10.2",
     "description": "Compiler and interactive environment for the functional language Haskell.",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.haskell.org/~ghc/8.10.1/ghc-8.10.1-x86_64-unknown-mingw32.tar.xz",
-            "hash": "38a3166ea50cccd5bae7e1680eae3aae2b4ae31b61f82a1d8168fb821f43bd67"
+            "url": "https://downloads.haskell.org/~ghc/8.10.2/ghc-8.10.2-x86_64-unknown-mingw32.tar.xz",
+            "hash": "dcae4c173b9896e07ff048de5509aa0a4537233150e06e5ce8848303dfadc176"
         }
     },
-    "extract_dir": "ghc-8.10.1",
+    "extract_dir": "ghc-8.10.2",
     "bin": [
         "bin\\ghc.exe",
         "bin\\ghci.exe",
