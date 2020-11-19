@@ -2,10 +2,10 @@
     "homepage": "https://visualvm.github.io/",
     "description": "Visual tool integrating commandline JDK tools and lightweight profiling capabilities",
     "license": "GPL-2.0",
-    "version": "2.0.4",
-    "url": "https://github.com/oracle/visualvm/releases/download/2.0.4/visualvm_204.zip",
-    "extract_dir": "visualvm_204",
-    "hash": "dc5fc38089a16507b973af196c994cd4af3bd320dc3202bae4aad13f8ae3c1f4",
+    "version": "2.0.5",
+    "url": "https://github.com/oracle/visualvm/releases/download/2.0.5/visualvm_205.zip",
+    "extract_dir": "visualvm_205",
+    "hash": "112c57eaf288089f9af522412a88ef4700937c7c356c7e0f8862472cb5263f02",
     "bin": "bin\\visualvm.exe",
     "suggest": {
         "JDK": [
