@@ -15,6 +15,7 @@
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [fcct](https://github.com/coreos/fcct) | Fedora CoreOS Config Transpiler |  |
 | [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
+| [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
 | [grcov](https://github.com/mozilla/grcov) | Rust tool to collect and aggregate code coverage data for multiple source files |  |
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
