@@ -1,12 +1,12 @@
 {
-    "version": "1.20",
+    "version": "1.20.2",
     "description": "Easy-to-use command-line/curses/web plaintext accounting tool",
     "homepage": "https://hledger.org/",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/simonmichael/hledger/releases/download/1.20/hledger-windows.zip",
-            "hash": "288acf981c3bb6a4f1e90e403cd5ca29f4b14b3b68322d127413f982a2b57819"
+            "url": "https://github.com/simonmichael/hledger/releases/download/1.20.2/hledger-windows.zip",
+            "hash": "7372f5368e1a976d15f0b83fea80c677e0d89668996f9dc3129c469cac377868"
         }
     },
     "bin": [
