@@ -1,12 +1,12 @@
 {
-    "version": "1.49.4",
+    "version": "1.49.5",
     "description": "CI-Friendly tool for document a database, written in Go",
     "homepage": "https://github.com/k1LoW/tbls",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/k1LoW/tbls/releases/download/v1.49.4/tbls_v1.49.4_windows_amd64.zip",
-            "hash": "a16741c853c27e7bd77b0e5d50f80a4ea63b84c624a2c9d3fac83fd10baff6e1"
+            "url": "https://github.com/k1LoW/tbls/releases/download/v1.49.5/tbls_v1.49.5_windows_amd64.zip",
+            "hash": "b3595a79ca415f1f0dbf2df6d3e7bbdb8c772188af9a964e70a1c853f252fde8"
         }
     },
     "bin": "tbls.exe",
