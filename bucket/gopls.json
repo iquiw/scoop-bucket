@@ -1,12 +1,12 @@
 {
-    "version": "0.6.4",
+    "version": "0.6.6",
     "description": "LSP server for Go",
     "homepage": "https://github.com/iquiw/gopls-binary",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/gopls-binary/releases/download/v0.6.4/gopls-v0.6.4.7z",
-            "hash": "5e3af2746300a24bef49eeb3ba6762203c5d13adac6c68ba0fbe2b079c7363be"
+            "url": "https://github.com/iquiw/gopls-binary/releases/download/v0.6.6/gopls-v0.6.6.7z",
+            "hash": "54705a7a541de01cfbfac858f181c163b58d550f540e8e9dd3d7aa855c4a3fed"
         }
     },
     "bin": "gopls.exe",
