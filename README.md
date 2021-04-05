@@ -24,6 +24,7 @@
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
+| [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [visualvm](https://visualvm.github.io/) | Visual tool integrating commandline JDK tools and lightweight profiling capabilities |  |
