@@ -21,7 +21,6 @@
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
 | [hackgennerd](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack, GenJyuu-Gothic and Nerd Fonts |  |
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
-| [hledger](https://hledger.org/) | Easy-to-use command-line/curses/web plaintext accounting tool |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
