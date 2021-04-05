@@ -8,7 +8,6 @@
 | ---  | ---         | ---               |
 | [aspell](https://github.com/iquiw/aspell-binary) | Spell checker designed to eventually replace Ispell | O |
 | [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
-| [cfssl](https://github.com/iquiw/cfssl-binary) | Cloudflare's PKI and TLS toolkit | O |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [cue](https://cuelang.org) | Validate and define text-based and dynamic configuration |  |
