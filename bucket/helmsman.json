@@ -1,12 +1,12 @@
 {
-    "version": "3.6.6",
+    "version": "3.6.7",
     "description": "Helm Charts as Code",
     "homepage": "https://github.com/Praqma/helmsman",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Praqma/helmsman/releases/download/v3.6.6/helmsman_3.6.6_windows_amd64.tar.gz",
-            "hash": "316f0322658e39bfbdf5ecfe57d96f73d9a056ce82a0eb4e3ef4007d15626b7d"
+            "url": "https://github.com/Praqma/helmsman/releases/download/v3.6.7/helmsman_3.6.7_windows_amd64.tar.gz",
+            "hash": "6d4e8a2cd9cc7373381cd29c196ad63b7df4400cfa89074a5a3d766924b135cb"
         }
     },
     "bin": "helmsman.exe",
