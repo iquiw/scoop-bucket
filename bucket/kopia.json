@@ -1,13 +1,13 @@
 {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "description": "Simple, cross-platform tool for managing encrypted backups in the cloud",
     "homepage": "https://kopia.io/",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kopia/kopia/releases/download/v0.8.0/kopia-0.8.0-windows-x64.zip",
-            "hash": "c6c418d58082953ea99ac2f29c7494bd404b5220581101abc064b6e92d8124c7",
-            "extract_dir": "kopia-0.8.0-windows-x64"
+            "url": "https://github.com/kopia/kopia/releases/download/v0.8.1/kopia-0.8.1-windows-x64.zip",
+            "hash": "eb46737175279d79b484df8ad0937727ade0638a67cd52a25705808a5e6115a4",
+            "extract_dir": "kopia-0.8.1-windows-x64"
         }
     },
     "bin": "kopia.exe",
