@@ -10,6 +10,7 @@
 | [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
 | [butane](https://github.com/coreos/butane) | Translator Butane Configs into Ignition Configs |  |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
+| [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [cue](https://cuelang.org) | Validate and define text-based and dynamic configuration |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
