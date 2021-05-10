@@ -1,12 +1,12 @@
 {
-    "version": "2.4.1",
+    "version": "2.5.0",
     "description": "Official command line tool for Vultr services",
     "homepage": "https://github.com/vultr/vultr-cli",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vultr/vultr-cli/releases/download/v2.4.1/vultr-cli_2.4.1_windows_64-bit.zip",
-            "hash": "5fd52bd89b9674330049578622494cecd194e82b9edb7e4999250d602ebe8567"
+            "url": "https://github.com/vultr/vultr-cli/releases/download/v2.5.0/vultr-cli_2.5.0_windows_64-bit.zip",
+            "hash": "7c0359c7718ae4ba692e4e2dc6c1235a15b8804cbc20b4b9c84d8f724ee0648f"
         }
     },
     "bin": "vultr-cli.exe",
