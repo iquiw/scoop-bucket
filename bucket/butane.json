@@ -1,12 +1,12 @@
 {
-    "version": "0.12.1",
+    "version": "0.13.0",
     "description": "Translator Butane Configs into Ignition Configs",
     "homepage": "https://github.com/coreos/butane",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/coreos/butane/releases/download/v0.12.1/butane-x86_64-pc-windows-gnu.exe#/butane.exe",
-            "hash": "975a28d6b86a2a13f38a7af479f80e454715cbbc199cecd03935bfee63dc0a9b"
+            "url": "https://github.com/coreos/butane/releases/download/v0.13.0/butane-x86_64-pc-windows-gnu.exe#/butane.exe",
+            "hash": "30ffff04be301f9e372b2d542e011e0d09af8dcb6fbe3f89771f88b4af3ab594"
         }
     },
     "bin": "butane.exe",
