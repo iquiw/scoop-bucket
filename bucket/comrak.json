@@ -1,12 +1,12 @@
 {
-    "version": "0.10.1",
+    "version": "0.11.0",
     "description": "CommonMark + GFM compatible Markdown parser and renderer",
     "homepage": "https://github.com/kivikakk/comrak",
     "license": "BSD-2-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kivikakk/comrak/releases/download/0.10.1/comrak-0.10.1-x86_64-pc-windows-msvc.exe#/comrak.exe",
-            "hash": "71b5b51a4dbfb49914c7aeeef87879a4baf7a34d6b181c81ba02afcfd98b5758"
+            "url": "https://github.com/kivikakk/comrak/releases/download/0.11.0/comrak-0.11.0-x86_64-pc-windows-msvc.exe#/comrak.exe",
+            "hash": "332ca82816057d97e9619bede7fe1a90cf36ebfcda01da8692488a57ed124b68"
         }
     },
     "bin": "comrak.exe",
