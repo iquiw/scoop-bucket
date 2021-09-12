@@ -17,7 +17,6 @@
 | [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
-| [grcov](https://github.com/mozilla/grcov) | Rust tool to collect and aggregate code coverage data for multiple source files |  |
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
 | [hackgennerd](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack, GenJyuu-Gothic and Nerd Fonts |  |
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
