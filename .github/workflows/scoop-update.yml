@@ -2,7 +2,7 @@ name: Scoop Update
 
 on:
   schedule:
-    - cron:  '50 23 * * *'
+    - cron:  '0 3 * * *'
 
 jobs:
   check:
@@ -47,6 +47,10 @@ jobs:
           .\scoop\bin\checkver.ps1 -Dir bucket -App ${{ matrix.app }} -Update
           $version = (gc "bucket\${{ matrix.app }}.json" | ConvertFrom-Json).version
           Write-Output "::set-output name=version::$version"
+
+      - name: Exclude scoop directory
+        run: |
+          "/scoop/`n" | Out-File -NoNewline -Encoding utf8 -Append .git\info\exclude
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
