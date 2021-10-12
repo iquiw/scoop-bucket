@@ -24,6 +24,7 @@
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
+| [kubectl-k3os](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl with version synced with k3OS |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [podman](https://github.com/containers/podman) | A tool for managing OCI containers and pods |  |
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |

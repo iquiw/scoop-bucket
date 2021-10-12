@@ -1,0 +1,35 @@
+{
+    "version": "1.20.11",
+    "description": "kubectl with version synced with k3OS",
+    "homepage": "https://kubernetes.io/docs/user-guide/kubectl-overview/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.20.11/kubernetes-client-windows-amd64.tar.gz",
+            "hash": "962e90e044f215e0f40a294688ed50e3a3a61817169ec54f997eeef525048cad"
+        },
+        "32bit": {
+            "url": "https://storage.googleapis.com/kubernetes-release/release/v1.20.11/kubernetes-client-windows-386.tar.gz",
+            "hash": "e2a3fb7f0dc9f725cf8cf67c8fb9c60c8f7a98062da7efa367b6cdca077d1208"
+        }
+    },
+    "extract_dir": "kubernetes\\client",
+    "bin": "bin\\kubectl.exe",
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/rancher/k3os/v0.20.x/images/10-k3s/Dockerfile",
+        "regex": "ENV VERSION v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://storage.googleapis.com/kubernetes-release/release/v$version/kubernetes-client-windows-amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://storage.googleapis.com/kubernetes-release/release/v$version/kubernetes-client-windows-386.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
