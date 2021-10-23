@@ -43,6 +43,7 @@ jobs:
 
       - name: Update manifest
         id: update-manifest
+        if: ${{ matrix.app != '__NONE__' }}
         run: |
           .\scoop\bin\checkver.ps1 -Dir bucket -App ${{ matrix.app }} -Update
           $version = (gc "bucket\${{ matrix.app }}.json" | ConvertFrom-Json).version

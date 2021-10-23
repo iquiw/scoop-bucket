@@ -3,7 +3,7 @@ $app    = $null
 $newver = $null
 $curver = $null
 
-$updatables = @()
+$updatables = @("__NONE__")
 
 foreach ($line in $output) {
     if ($curver -ne $null) {
