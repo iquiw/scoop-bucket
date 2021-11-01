@@ -26,6 +26,7 @@
 | [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
 | [kubectl-k3os](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl with version synced with k3OS |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
+| [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
 | [podman](https://github.com/containers/podman) | A tool for managing OCI containers and pods |  |
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
