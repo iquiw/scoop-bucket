@@ -1,16 +1,16 @@
 {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "description": "Simple Golang SMTP relay/proxy server",
     "homepage": "https://github.com/decke/smtprelay",
     "license": "MIT",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/decke/smtprelay/releases/download/v1.6.0/smtprelay-v1.6.0-windows-386.zip",
-            "hash": "md5:f290c81673596970149a1a5e267c53bb"
+            "url": "https://github.com/decke/smtprelay/releases/download/v1.7.0/smtprelay-v1.7.0-windows-386.zip",
+            "hash": "md5:c0cf49d039294731a07bcdc700c01a94"
         },
         "64bit": {
-            "url": "https://github.com/decke/smtprelay/releases/download/v1.6.0/smtprelay-v1.6.0-windows-amd64.zip",
-            "hash": "md5:9ae80eaf85fc1de8e105d12b716918d4"
+            "url": "https://github.com/decke/smtprelay/releases/download/v1.7.0/smtprelay-v1.7.0-windows-amd64.zip",
+            "hash": "md5:d74f0919d94777027e226e68373bb2f2"
         }
     },
     "bin": [
