@@ -25,7 +25,6 @@
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
-| [podman](https://github.com/containers/podman) | A tool for managing OCI containers and pods |  |
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
