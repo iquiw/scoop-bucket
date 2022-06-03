@@ -23,7 +23,6 @@
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [kubectl-k3os](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl with version synced with k3OS |  |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
-| [nova](https://github.com/FairwindsOps/nova) | Find outdated or deprecated Helm charts running in your cluster |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
 | [podman](https://github.com/containers/podman) | A tool for managing OCI containers and pods |  |
