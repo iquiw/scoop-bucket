@@ -12,7 +12,6 @@
 | [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
 | [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
-| [difftastic](https://difftastic.wilfred.me.uk/) | A structural diff that understands syntax |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
