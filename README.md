@@ -21,7 +21,6 @@
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
-| [kopia](https://kopia.io/) | Simple, cross-platform tool for managing encrypted backups in the cloud |  |
 | [kubectl-k3os](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl with version synced with k3OS |  |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
 | [nova](https://github.com/FairwindsOps/nova) | Find outdated or deprecated Helm charts running in your cluster |  |
