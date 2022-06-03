@@ -31,6 +31,5 @@
 | [talosctl](https://www.talos.dev/) | A CLI for out-of-band management of Kubernetes nodes created by Talos |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [tree-sitter](https://tree-sitter.github.io/tree-sitter/) | An incremental parsing system for programming tools |  |
-| [vultr-cli](https://github.com/vultr/vultr-cli) | Official command line tool for Vultr services |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 
