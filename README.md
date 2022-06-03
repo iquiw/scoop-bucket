@@ -8,7 +8,6 @@
 | ---  | ---         | ---               |
 | [aspell](https://github.com/iquiw/aspell-binary) | Spell checker designed to eventually replace Ispell | O |
 | [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
-| [butane](https://github.com/coreos/butane) | Translator Butane Configs into Ignition Configs |  |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
 | [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
 | [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
