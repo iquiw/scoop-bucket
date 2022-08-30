@@ -23,7 +23,6 @@
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
-| [kubectl-k3os](https://kubernetes.io/docs/user-guide/kubectl-overview/) | kubectl with version synced with k3OS |  |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
