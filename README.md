@@ -23,6 +23,7 @@
 | [helmsman](https://github.com/Praqma/helmsman) | Helm Charts as Code |  |
 | [hunspell](https://github.com/iquiw/hunspell-binary) | The most popular spellchecking library | O |
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
+| [ledger](https://github.com/iquiw/ledger-binary) | Double-entry accounting system with a command-line reporting interface | O |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
