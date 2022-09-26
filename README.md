@@ -33,5 +33,6 @@
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
 | [talosctl](https://www.talos.dev/) | A CLI for out-of-band management of Kubernetes nodes created by Talos |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
+| [terraform-ls](https://github.com/hashicorp/terraform-ls) | Terraform Language Server |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 
