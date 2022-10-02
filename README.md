@@ -26,6 +26,7 @@
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [ledger](https://github.com/iquiw/ledger-binary) | Double-entry accounting system with a command-line reporting interface | O |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
+| [marksman](https://github.com/artempyanykh/marksman) | Write Markdown with code assist and intelligence in the comfort of your favourite editor |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
