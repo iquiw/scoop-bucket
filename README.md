@@ -36,4 +36,5 @@
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [terraform-ls](https://github.com/hashicorp/terraform-ls) | Terraform Language Server |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
+| [zigmod](https://aquila.red/) | A package manager for the Zig programming language |  |
 
