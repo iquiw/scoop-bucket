@@ -17,7 +17,7 @@
     },
     "bin": "bin/cinc-auditor.bat",
     "checkver": {
-        "url": "https://omnitruck.cinc.sh/stable/cinc-auditor/metadata?v=4&p=windows&pv=2016&m=x86_64",
+        "url": "https://omnitruck.cinc.sh/stable/cinc-auditor/metadata?v=5&p=windows&pv=2016&m=x86_64",
         "re": "url\\thttp://packages.cinc.sh/(?<url>[^ ]+)\\nversion\\t(?<version>[\\d.]+)",
         "replace": "${version}"
     },
