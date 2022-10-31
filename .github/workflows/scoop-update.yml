@@ -2,7 +2,7 @@ name: Scoop Update
 
 on:
   schedule:
-    - cron:  '0 3 * * *'
+    - cron:  '0 7,14,21 * * *'
 
 jobs:
   check:
