@@ -47,7 +47,7 @@ jobs:
         run: |
           .\scoop\bin\checkver.ps1 -Dir bucket -App ${{ matrix.app }} -Update
           $version = (gc "bucket\${{ matrix.app }}.json" | ConvertFrom-Json).version
-          "version=$version`n" | Out-File -NoNewline -Encoding utf8 -Append $env::GITHUB_OUTPUT
+          "version=$version`n" | Out-File -NoNewline -Encoding utf8 -Append $env:GITHUB_OUTPUT
 
       - name: Exclude scoop directory
         run: |
