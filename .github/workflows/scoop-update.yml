@@ -8,7 +8,7 @@ jobs:
   check:
     runs-on: windows-latest
     outputs:
-      apps: ${{ steps.checkver.outputs.matrix }}
+      apps: ${{ steps.checkver.outputs.apps }}
     steps:
       - name: Checkout self
         uses: actions/checkout@v2
@@ -23,6 +23,7 @@ jobs:
         id: checkver
         run: |
           .\scripts\check-update.ps1
+          Get-Content $env:GITHUB_OUTPUT
         env:
           SCOOP_HOME: scoop
 
@@ -30,7 +31,8 @@ jobs:
     runs-on: windows-latest
     needs: check
     strategy:
-      matrix: "${{ fromJSON(needs.check.outputs.apps) }}"
+      matrix:
+        app: "${{ fromJSON(needs.check.outputs.apps) }}"
     steps:
       - name: Checkout self
         uses: actions/checkout@v2
