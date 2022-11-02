@@ -11,10 +11,10 @@ jobs:
       apps: ${{ steps.checkver.outputs.apps }}
     steps:
       - name: Checkout self
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: scoop
           repository: lukesampson/scoop
@@ -35,10 +35,10 @@ jobs:
         app: "${{ fromJSON(needs.check.outputs.apps) }}"
     steps:
       - name: Checkout self
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout scoop
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: scoop
           repository: lukesampson/scoop
