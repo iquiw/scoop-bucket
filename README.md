@@ -14,6 +14,7 @@
 | [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
 | [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
+| [d2](https://d2lang.com/) | A modern diagram scripting language that turns text to diagrams. |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [doggo](https://doggo.mrkaran.dev/) | Command-line DNS Client for Humans. Written in Golang |  |
 | [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
