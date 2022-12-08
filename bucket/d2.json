@@ -14,7 +14,7 @@
         }
     },
     "extract_dir": "d2-v0.1.1",
-    "bin": "bin/d2",
+    "bin": "bin/d2.exe",
     "checkver": {
         "github": "https://github.com/terrastruct/d2"
     },
