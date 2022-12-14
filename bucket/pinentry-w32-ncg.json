@@ -1,0 +1,23 @@
+{
+    "version": "1.2.1",
+    "description": "pinentry-w32, no characters garbled",
+    "homepage": "https://github.com/iquiw/pinentry-w32-ncg-binary",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/iquiw/pinentry-w32-ncg-binary/releases/download/1.2.1/pinentry-w32-ncg-v1.2.1.zip",
+            "hash": "f5c5cbb848d221c9a3c0cd41b2edba0ffe368f1715d8b2168f4c5b348575c6ea"
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/iquiw/pinentry-w32-ncg-binary/releases/download/$version/pinentry-w32-ncg-v$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}

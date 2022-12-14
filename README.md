@@ -29,6 +29,7 @@
 | [marksman](https://github.com/artempyanykh/marksman) | Write Markdown with code assist and intelligence in the comfort of your favourite editor |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
+| [pinentry-w32-ncg](https://github.com/iquiw/pinentry-w32-ncg-binary) | pinentry-w32, no characters garbled | O |
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
