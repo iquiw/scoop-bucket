@@ -2,11 +2,11 @@
     "homepage": "https://github.com/spiegel-im-spiegel/gpgpdump",
     "description": "OpenPGP packet visualizer",
     "license": "Apache-2.0",
-    "version": "0.15.1",
+    "version": "0.15.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.15.1/gpgpdump_0.15.1_Windows_64bit.zip",
-            "hash": "a13d5ea96909bc74a46c0c105033e3238f74d3b31409b2656d8e830c8c5b2563"
+            "url": "https://github.com/spiegel-im-spiegel/gpgpdump/releases/download/v0.15.2/gpgpdump_0.15.2_Windows_64bit.zip",
+            "hash": "04f4bf41bfca8bb91058224d903230d4c691aead750f1aaef0cd3513f8e370fd"
         }
     },
     "bin": "gpgpdump.exe",
