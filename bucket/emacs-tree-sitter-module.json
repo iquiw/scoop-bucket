@@ -9,6 +9,7 @@
             "hash": "f92465d3eee3bbfcfa7ea21d8f13f4fa165c6b4ff4187cf6ad632fd905c170ce"
         }
     },
+    "env_add_path": ".",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
