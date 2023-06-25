@@ -15,7 +15,7 @@
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs | O |
-| [ghc](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
+| [ghc96](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
