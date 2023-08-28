@@ -14,6 +14,7 @@
 | [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
+| [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs UCRT64 | O |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs | O |
 | [ghc96](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
