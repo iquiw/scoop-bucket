@@ -11,10 +11,10 @@ jobs:
       apps: ${{ steps.checkver.outputs.apps }}
     steps:
       - name: Checkout self
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Checkout scoop
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: scoop
           repository: lukesampson/scoop
