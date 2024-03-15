@@ -2,11 +2,11 @@
     "homepage": "https://github.com/iquiw/emacs-tree-sitter-module-dll",
     "description": "tree-sitter module DLLs for Emacs UCRT64",
     "license": "MIT",
-    "version": "20240314",
+    "version": "20240315",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/iquiw/emacs-tree-sitter-module-dll/releases/download/20240314/emacs-tree-sitter-module-ucrt64-20240314.zip",
-            "hash": "b2f5ef996885f0f4e5e46b8732e1e443350f42bf14bd3554065d14fdefedb8a7"
+            "url": "https://github.com/iquiw/emacs-tree-sitter-module-dll/releases/download/20240315/emacs-tree-sitter-module-ucrt64-20240315.zip",
+            "hash": "2b0cf8d0df81de369da76186f50f0004d39f55e355fbf688154f7fe68d1fcf35"
         }
     },
     "checkver": "github",
