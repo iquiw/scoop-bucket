@@ -16,6 +16,7 @@
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs UCRT64 | O |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs | O |
+| [evtx_dump](https://github.com/omerbenamram/EVTX) | Utility to parse EVTX files |  |
 | [ghc96](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
