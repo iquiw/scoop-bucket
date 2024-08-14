@@ -16,7 +16,7 @@
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs UCRT64 | O |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module-dll) | tree-sitter module DLLs for Emacs | O |
-| [evtx_dump](https://github.com/omerbenamram/EVTX) | Utility to parse EVTX files |  |
+| [evtx_dump](https://github.com/omerbenamram/evtx) | Utility to parse EVTX files |  |
 | [ghc96](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
@@ -27,6 +27,7 @@
 | [iosevka](https://typeof.net/Iosevka/) | Slender typeface for code, from code |  |
 | [ledger](https://github.com/iquiw/ledger-binary) | Double-entry accounting system with a command-line reporting interface | O |
 | [logcli](https://github.com/grafana/loki) | Command-line interface to Grafana Loki |  |
+| [ollama-zip](https://ollama.com/) | Get up and running with large language models locally. |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
 | [pinentry-w32-ncg](https://github.com/iquiw/pinentry-w32-ncg-binary) | pinentry-w32, no characters garbled | O |
