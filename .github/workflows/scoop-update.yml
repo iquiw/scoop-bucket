@@ -4,6 +4,8 @@ on:
   schedule:
     - cron:  '0 7,14,21 * * *'
 
+permissions: {}
+
 jobs:
   check:
     runs-on: windows-latest
@@ -11,13 +13,16 @@ jobs:
       apps: ${{ steps.checkver.outputs.apps }}
     steps:
       - name: Checkout self
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Checkout scoop
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           path: scoop
           repository: lukesampson/scoop
+          persist-credentials: false
 
       - name: Run checkver
         id: checkver
@@ -33,30 +38,38 @@ jobs:
     strategy:
       matrix:
         app: "${{ fromJSON(needs.check.outputs.apps) }}"
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout self
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
 
       - name: Checkout scoop
-        uses: actions/checkout@v4
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           path: scoop
           repository: lukesampson/scoop
+          persist-credentials: false
 
       - name: Update manifest
         id: update-manifest
         if: ${{ matrix.app != '__NONE__' }}
         run: |
-          .\scoop\bin\checkver.ps1 -Dir bucket -App ${{ matrix.app }} -Update
-          $version = (gc "bucket\${{ matrix.app }}.json" | ConvertFrom-Json).version
+          .\scoop\bin\checkver.ps1 -Dir bucket -App $env:MATRIX_APP -Update
+          $version = (gc "bucket\$env:MATRIX_APP.json" | ConvertFrom-Json).version
           "version=$version`n" | Out-File -NoNewline -Encoding utf8 -Append $env:GITHUB_OUTPUT
+        env:
+          MATRIX_APP: ${{ matrix.app }}
 
       - name: Exclude scoop directory
         run: |
           "/scoop/`n" | Out-File -NoNewline -Encoding utf8 -Append .git\info\exclude
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
           commit-message: '${{ matrix.app }}: Update to version to ${{ steps.update-manifest.outputs.version }}'
           branch: 'create-pull-request/${{ matrix.app }}-${{ steps.update-manifest.outputs.version }}'
