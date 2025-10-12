@@ -1,12 +1,12 @@
 {
-    "version": "0.6.27",
+    "version": "0.6.29",
     "description": "TOML Formatter / Linter / Language Server",
     "homepage": "https://tombi-toml.github.io/tombi/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tombi-toml/tombi/releases/download/v0.6.27/tombi-cli-0.6.27-x86_64-pc-windows-msvc.zip",
-            "hash": "8fe29ca2ff2288967118a783ef316c461b5026cd20d56d1faf79147efb205e60"
+            "url": "https://github.com/tombi-toml/tombi/releases/download/v0.6.29/tombi-cli-0.6.29-x86_64-pc-windows-msvc.zip",
+            "hash": "41e7d96a04718e608fb1c4067bfb5f5a36a007f130d94ab5b8f667e86bdbf064"
         }
     },
     "bin": "tombi.exe",
