@@ -31,7 +31,6 @@
 | [kubectl-klock](https://github.com/applejag/kubectl-klock) | A kubectl plugin to render watch output in a more readable fashion |  |
 | [ledger](https://github.com/iquiw/ledger-binary) | Double-entry accounting system with a command-line reporting interface | O |
 | [mo](https://github.com/k1LoW/mo) | Markdown viewer that opens .md files in a browser |  |
-| [ollama-zip](https://ollama.com/) | Get up and running with large language models locally. |  |
 | [password](https://passwd.fyi/) | Fast and secure password generator |  |
 | [pict](https://www.pairwise.org/) | Pairwise Independent Combinatorial Tool |  |
 | [pinentry-w32-ncg](https://github.com/iquiw/pinentry-w32-ncg-binary) | pinentry-w32, no characters garbled | O |
