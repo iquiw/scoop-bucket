@@ -12,7 +12,6 @@
 | [buildkit](https://github.com/moby/buildkit) | concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit |  |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
 | [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
-| [comrak](https://github.com/kivikakk/comrak) | CommonMark + GFM compatible Markdown parser and renderer |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs UCRT64 |  |
