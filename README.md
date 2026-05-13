@@ -40,5 +40,4 @@
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 | [zigmod](https://aquila.red/) | A package manager for the Zig programming language |  |
-| [zizmor](https://docs.zizmor.sh) | Static analysis for GitHub Actions |  |
 
