@@ -1,12 +1,12 @@
 {
-    "version": "0.11.2",
+    "version": "0.12.0",
     "description": "Utility to parse EVTX files",
     "homepage": "https://github.com/omerbenamram/evtx",
     "license": "Apache-2.0, MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/omerbenamram/evtx/releases/download/v0.11.2/evtx_dump-v0.11.2.exe#/evtx_dump.exe",
-            "hash": "ce131b78f630fa6278b4fb6bae5e4f7bebf7250612cfc89466f627bf78f6681b"
+            "url": "https://github.com/omerbenamram/evtx/releases/download/v0.12.0/evtx_dump-v0.12.0.exe#/evtx_dump.exe",
+            "hash": "a164ae4d6bd9877b5e4f1a0a18fe8b0a57d2cf20c671d0700b7d2650cb7c5a10"
         }
     },
     "bin": "evtx_dump.exe",
