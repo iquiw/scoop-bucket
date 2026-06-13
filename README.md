@@ -13,6 +13,7 @@
 | [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
+| [emacs-pretest](https://www.gnu.org/software/emacs/) | An extensible, customizable, free/libre text editor |  |
 | [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs UCRT64 |  |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs |  |
 | [emacs30-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 UCRT64 |  |
