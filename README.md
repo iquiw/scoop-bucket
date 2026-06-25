@@ -6,6 +6,7 @@
 
 | Name | Description | Unofficial binary |
 | ---  | ---         | ---               |
+| [adrs](https://joshrotenberg.com/adrs/) | Architectural Decision Record tool in Rust |  |
 | [aspell](https://github.com/iquiw/aspell-binary) | Spell checker designed to eventually replace Ispell | O |
 | [bash-completion](https://github.com/scop/bash-completion) | Programmable completion functions for bash |  |
 | [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
