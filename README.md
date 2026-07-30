@@ -39,6 +39,7 @@
 | [rireq](https://github.com/iquiw/rireq) | Super simple bash history replacement |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
+| [yayamlls](https://github.com/home-operations/yayamlls) | YAML language server in Go |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 | [zigmod](https://aquila.red/) | A package manager for the Zig programming language |  |
 
