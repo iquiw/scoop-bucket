@@ -82,13 +82,15 @@ jobs:
 
           git switch -c "manifest-update/$env:MATRIX_APP-$env:APP_VERSION"
           git add .
-          git commit -m "$env:MATRIX_APP: Update to version to $env:APP_VERSION"
+          git commit -m "${env:MATRIX_APP}: Update to version to $env:APP_VERSION"
 
           git push -u origin "manifest-update/$env:MATRIX_APP-$env:APP_VERSION"
 
+          $homepage = (gc "bucket\$env:MATRIX_APP.json" | ConvertFrom-Json).homepage
+
           gh pr create `
-              --title "$env:MATRIX_APP: Update to version to $env:APP_VERSION" `
-              --body "" `
+              --title "${env:MATRIX_APP}: Update to version to $env:APP_VERSION" `
+              --body "[$env:MATRIX_APP]($homepage) $env:APP_VERSION" `
               --label "version up" `
               --label "automated pr" `
               --assignee iquiw `
