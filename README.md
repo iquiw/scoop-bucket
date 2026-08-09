@@ -11,7 +11,6 @@
 | [bash-completion](https://github.com/scop/bash-completion) | Programmable completion functions for bash |  |
 | [browserpass](https://github.com/browserpass/browserpass-native) | Browserpass native client app |  |
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
-| [cinc-auditor](https://cinc.sh/start/auditor/) | A 100% free distribution of Chef Inspec™ by the Cinc Project |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [emacs-pretest](https://www.gnu.org/software/emacs/) | An extensible, customizable, free/libre text editor |  |
@@ -20,7 +19,6 @@
 | [emacs30-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 UCRT64 |  |
 | [emacs30-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 |  |
 | [evtx_dump](https://github.com/omerbenamram/evtx) | Utility to parse EVTX files |  |
-| [ghc96](https://www.haskell.org/ghc/) | Compiler and interactive environment for the functional language Haskell. |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
 | [hackgen](https://github.com/yuru7/HackGen) | Japanese programming font which is a composed of Hack and GenJyuu-Gothic |  |
@@ -41,5 +39,4 @@
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [yayamlls](https://github.com/home-operations/yayamlls) | YAML language server in Go |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
-| [zigmod](https://aquila.red/) | A package manager for the Zig programming language |  |
 
