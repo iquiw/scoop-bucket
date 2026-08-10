@@ -77,14 +77,22 @@ jobs:
       - name: Create Pull Request
         if: ${{ matrix.app != '__NONE__' }}
         run: |
+          $branch = "manifest-update/$env:MATRIX_APP-$env:APP_VERSION"
+
+          $existing = gh pr list --head $branch --state open --json number | ConvertFrom-Json
+          if ($existing) {
+            Write-Host "Pull request already exists for $branch. Skipping."
+            exit 0
+          }
+
           git config user.name "iquiw"
           git config user.email "238681+iquiw@users.noreply.github.com"
 
-          git switch -c "manifest-update/$env:MATRIX_APP-$env:APP_VERSION"
+          git switch -C $branch
           git add .
           git commit -m "${env:MATRIX_APP}: Update to version to $env:APP_VERSION"
 
-          git push -u origin "manifest-update/$env:MATRIX_APP-$env:APP_VERSION"
+          git push -u --force origin $branch
 
           $homepage = (gc "bucket\$env:MATRIX_APP.json" | ConvertFrom-Json).homepage
 
