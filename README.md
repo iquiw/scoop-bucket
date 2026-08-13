@@ -35,6 +35,7 @@
 | [proxify](https://projectdiscovery.io/open-source) | Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go |  |
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [rireq](https://github.com/iquiw/rireq) | Super simple bash history replacement |  |
+| [shuck](https://ewhauser.github.io/shuck/) | A lightning fast shell linter/formatter/LSP server |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [yayamlls](https://github.com/home-operations/yayamlls) | YAML language server in Go |  |
