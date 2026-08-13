@@ -13,6 +13,7 @@
 | [cica](https://github.com/miiton/Cica) | Japanese fixed-width font for Programming |  |
 | [ct](https://github.com/coreos/container-linux-config-transpiler) | Container Linux Config Transpiler |  |
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
+| [droast](https://ewry.net/droast-dockerfile-linter/) | droast - a dockerfile linter that actually has opinions |  |
 | [emacs-pretest](https://www.gnu.org/software/emacs/) | An extensible, customizable, free/libre text editor |  |
 | [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs UCRT64 |  |
 | [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs |  |
