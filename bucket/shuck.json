@@ -1,12 +1,12 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "A lightning fast shell linter/formatter/LSP server",
     "homepage": "https://ewhauser.github.io/shuck/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ewhauser/shuck/releases/download/v0.1.1/shuck-cli-x86_64-pc-windows-msvc.zip",
-            "hash": "d361a2ed117e836aee4ce157b0fdcc1ec93677349dbf8a6d001986ed5cc27fa3"
+            "url": "https://github.com/ewhauser/shuck/releases/download/v0.1.3/shuck-cli-x86_64-pc-windows-msvc.zip",
+            "hash": "3c6cca8fb056b4925cafc6eee74a04493922dc469513e70781151b4c1148d47b"
         }
     },
     "bin": "shuck.exe",
