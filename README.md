@@ -15,10 +15,12 @@
 | [docker-cli](https://github.com/iquiw/docker-cli-binary) | The Docker CLI | O |
 | [droast](https://ewry.net/droast-dockerfile-linter/) | droast - a dockerfile linter that actually has opinions |  |
 | [emacs-pretest](https://www.gnu.org/software/emacs/) | An extensible, customizable, free/libre text editor |  |
-| [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs UCRT64 |  |
-| [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs |  |
-| [emacs30-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 UCRT64 |  |
-| [emacs30-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 |  |
+| [emacs-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs UCRT64 | O |
+| [emacs-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs | O |
+| [emacs30-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 UCRT64 | O |
+| [emacs30-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-30 | O |
+| [emacs31-tree-sitter-module-ucrt64](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-31 UCRT64 | O |
+| [emacs31-tree-sitter-module](https://github.com/iquiw/emacs-tree-sitter-module) | tree-sitter module libraries for Emacs-31 | O |
 | [evtx_dump](https://github.com/omerbenamram/evtx) | Utility to parse EVTX files |  |
 | [gopls](https://github.com/iquiw/gopls-binary) | LSP server for Go | O |
 | [gpgpdump](https://github.com/spiegel-im-spiegel/gpgpdump) | OpenPGP packet visualizer |  |
