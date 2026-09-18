@@ -39,6 +39,7 @@
 | [rawrite32](https://www.netbsd.org/~martin/rawrite32/index.html) | A tool to prepare disks or other removeable media, especially USB memory sticks |  |
 | [rireq](https://github.com/iquiw/rireq) | Super simple bash history replacement |  |
 | [shuck](https://ewhauser.github.io/shuck/) | A lightning fast shell linter/formatter/LSP server |  |
+| [simple-fts](https://github.com/wangfenjin/simple) | A SQLite3 fts5 tokenizer which supports Chinese and PinYin |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
 | [yayamlls](https://github.com/home-operations/yayamlls) | YAML language server in Go |  |
