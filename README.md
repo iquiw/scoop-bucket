@@ -42,6 +42,7 @@
 | [simple-fts](https://github.com/wangfenjin/simple) | A SQLite3 fts5 tokenizer which supports Chinese and PinYin |  |
 | [smtprelay](https://github.com/decke/smtprelay) | Simple Golang SMTP relay/proxy server |  |
 | [tbls](https://github.com/k1LoW/tbls) | CI-Friendly tool for document a database, written in Go |  |
+| [tuios](https://tuios.dev) | Terminal UI Operating System |  |
 | [yayamlls](https://github.com/home-operations/yayamlls) | YAML language server in Go |  |
 | [yj](https://github.com/sclevine/yj) | Convert between YAML, TOML, JSON, and HCL |  |
 
